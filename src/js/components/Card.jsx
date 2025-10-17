@@ -10,6 +10,10 @@ function Card(props) {
           <h5 className="card-title">{props.title}</h5>
           <p className="card-text">{props.description}
           </p>
+          <img 
+          src="https://picsum.photos/200" 
+          className="img-fluid d-block mx-auto mb-3" 
+        />
           <a href="#" className="btn btn-primary">
             Go somewhere
           </a>
